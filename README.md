@@ -6,7 +6,7 @@ Free FINA6010 global market dashboard. Dark by default, responsive, with light m
 Serve the dist directory with any static web server. No npm dependencies, API keys or build step are required.
 
 ## Data
-TradingView hosted embeds supply automatic quotes, historical charts and headlines. Forex and crypto stream in real time; exchanges may impose delays. US and European equity indices and Brent use labelled CFD proxies. IEF and SHY provide delayed Treasury ETF prices because direct Treasury yield embeds were restricted during testing.
+TradingView hosted embeds supply automatic quotes, historical charts and headlines. Forex and crypto stream in real time; exchanges may impose delays. US equity indices and Brent use labelled CFD proxies. Hang Seng and BSE Sensex are end-of-day feeds. IEF and SHY provide delayed Treasury ETF prices because direct Treasury yield embeds were restricted during testing.
 
 The written executive summary, weekly scorecard, daily market drivers and forward calendar live in `dist/briefing-data.js`. They are sourced editorial context, not automatic market quotes. Each driver card links to a supporting source, and the file is refreshed daily.
 
