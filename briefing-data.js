@@ -1,10 +1,10 @@
 window.marketBriefing={
-  updatedAt:'19 Sep 2026 · 18:40 HKT',
+  updatedAt:'20 Sep 2026 · 18:30 HKT',
   asOf:'Latest completed sessions through Friday, 18 September 2026',
   headline:'Rates stayed high, oil reversed, and market leadership narrowed.',
   summary:[
     'The Fed raised its target range by 25 basis points to 3.75%–4.00%, while the US 10-year Treasury revisited 5%. Japan also raised rates, keeping global policy firmly restrictive.',
-    'US technology and crypto finished the week stronger, but broad equity participation was weak. The Dow, Russell 2000 and European shares lagged.',
+    'US technology and crypto finished the week stronger, but broad equity participation was weak. The Dow, Russell 2000 and European shares lagged; Bitcoin and Ether then gave back part of Friday’s rebound in Sunday trading.',
     'Oil fell sharply from its midweek highs as immediate Saudi supply fears eased. That reduced some inflation pressure, but geopolitical risk around the Strait of Hormuz remains.'
   ],
   week:[
@@ -26,7 +26,7 @@ window.marketBriefing={
     {asset:'FX',move:'Dollar steady · yen weaker near ¥158 per US$',why:'The Fed and BOJ both tightened, but US yields remained much higher. The yen weakened despite the BOJ hike as investors focused on the continuing rate differential.',watch:'Central-bank guidance, flash PMIs and any move through ¥158 in USD/JPY.',source:'Global markets wrap',url:'https://www.swissinfo.ch/eng/us-stocks-steady-as-tech-outperforms-and-oil-falls%3A-markets-wrap/92078736'},
     {asset:'Commodities',move:'WTI +0.3% week · gold near its weekly high',why:'Oil surged on supply fears, then reversed as Saudi export workarounds eased the immediate shortage risk. Gold recovered as oil and yields retreated from their peaks.',watch:'Hormuz shipping, Saudi export flows, US inventories and whether gold holds its post-Fed rebound.',source:'Oil weekly close',url:'https://energynow.ca/2026/09/oil-ends-volatile-week-at-100-as-saudi-supply-fears-ease-but-hormuz-risks-persist/'},
     {asset:'Fixed income',move:'US 10Y near 5.00% · IEF −0.5% Friday',why:'The Fed raised rates and kept an inflation-focused stance. Longer-duration bonds remained more sensitive than short Treasuries as yields stayed near multi-year highs.',watch:'The 5% level in the 10-year yield, Fed speakers, PMIs and renewed oil-driven inflation pressure.',source:'Federal Reserve decision',url:'https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm'},
-    {asset:'Crypto',move:'Bitcoin +4.8% week · Ether +3.8%',why:'Digital assets caught a stronger risk bid late in the week as oil retreated, while crypto-positive US regulatory headlines supported sentiment.',watch:'Weekend liquidity, regulatory follow-through and whether higher Treasury yields interrupt the rebound.',source:'Friday market close',url:'https://www.axios.com/newsletters/axios-closer-2686eef3-24e4-4cee-b7c8-d3d173a468cd'}
+    {asset:'Crypto',move:'Bitcoin +4.8% week · Ether +3.8% · softer Sunday',why:'Digital assets caught a stronger risk bid late Friday as oil retreated and US regulatory headlines improved sentiment. Thin weekend trading then gave back part of that rebound; this is association, not proven causation.',watch:'Whether Friday’s rebound holds when institutional liquidity returns, ETF flows, regulatory follow-through and the pressure from 5% Treasury yields.',source:'Crypto weekly follow-up',url:'https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871'}
   ],
   calendar:[
     {day:'Mon–Tue',event:'Global central-bank communication',impact:'Rates, FX and duration'},
@@ -41,6 +41,8 @@ window.marketBriefing={
     {label:'Federal Reserve · September decision',url:'https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm'},
     {label:'Nikkei · historical closes',url:'https://indexes.nikkei.co.jp/en/nkave/archives/data'},
     {label:'RTHK · Asian market close',url:'https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/en/component/k2/1870624-20260918.htm'},
-    {label:'Week-ahead calendar',url:'https://www.marketscreener.com/news/week-ahead-for-fx-bonds-u-s-pmi-data-various-central-bank-decisions-in-focus-ce785adadd81f022'}
+    {label:'Reuters · Friday global market close',url:'https://www.marketscreener.com/news/wall-st-ends-mixed-as-oil-takes-a-pause-ce785adadc80f123'},
+    {label:'Kiplinger · September 21–25 calendar',url:'https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar'},
+    {label:'The Block · weekend crypto follow-up',url:'https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871'}
   ]
 };
